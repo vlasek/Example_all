@@ -1,4 +1,4 @@
-﻿int Max(int arg1, int arg2, int arg3)
+﻿int Max(int arg1, int arg2, int arg3) // кусок кода отвечающих за макс из 3-х
 {
     int result = arg1;
     if (arg2 > result) result = arg2;
@@ -14,7 +14,7 @@ int a2 = 12;
 int b2 = 313;
 int c2 = 143;
 int a3 = 452;
-int b3 = 64;
+int b3 = 6324;
 int c3 = 84;
 
 // if (b1 > max) max = b1;
@@ -26,10 +26,11 @@ int c3 = 84;
 // if (b3 > max) max = b3;
 // if (c3 > max) max = c3;
 
-int max1 = Max (a1, b1, c1);
-int max2 = Max (a2, b2, c2);
-int max3 = Max (a3, b3, c3);
+// int max1 = Max (a1, b1, c1);
+// int max2 = Max (a2, b2, c2);
+// int max3 = Max (a3, b3, c3);
+// int max=Max(max1, max2, max3);
 
-int max=Max(max1, max2, max3);
-Console.Write("max = ");
-Console.WriteLine(max);
+int max=Max(Max (a1, b1, c1), Max (a2, b2, c2), Max (a3, b3, c3));
+
+Console.WriteLine("max = "+max);
