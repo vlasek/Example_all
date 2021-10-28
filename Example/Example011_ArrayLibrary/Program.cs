@@ -39,7 +39,7 @@ int IndexOf(int[] collection, int find)
 }
 int[] array = new int[10]; // создай новый массив с 10 элементами
 FillArray(array);
-array[4]=4; //принудительно
+array[4]=4; //принудительно 
 array[6]=4;
 PrintArray(array);
 Console.WriteLine();

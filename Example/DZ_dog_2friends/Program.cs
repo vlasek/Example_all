@@ -1,4 +1,5 @@
-﻿int count = 0;
+﻿// два друга идут навстречу друг другу и между ними бегает задача. сколько раз она пробежеит между ними
+int count = 0;
 double distance = 10000;
 double firstFrSpeed = 1;
 double secondFrSpeed = 2;
