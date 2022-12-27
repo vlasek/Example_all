@@ -24,4 +24,4 @@ while (distance > 10)
     }
 count++;
 }
-Console.WriteLine("Собака пробежит столько раз  "+count);
+Console.WriteLine("Собака пробежит "+count + " раз");
